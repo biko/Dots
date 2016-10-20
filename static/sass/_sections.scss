@@ -1,0 +1,69 @@
+.how{
+  position:relative;
+  height: 100%;
+  width: 100%;
+  background:#1cace3;
+  color: #fff;
+
+  .how-header{
+    position:absolute;
+    top: 2em;
+  }
+
+  h2{
+    padding:0 1em;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+  }
+
+  .page-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  canvas{
+  }
+
+  .how-footer{
+    position:absolute;
+    bottom: 2em;
+    width: 100%;
+    left: 0;
+
+    .how-content-data{
+      padding:0 1em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .data{
+
+      span{
+        font-size: 3.5em;
+        font-weight: 600;
+      }
+
+      small{
+        font-weight: 200;
+        font-size: .8em;
+        position: relative;
+        top: -0.5em;
+        overflow: hidden;
+        width: 92px;
+        display: inline-block;
+        line-height: 1.1em;
+      }
+
+      i{
+        display: block;
+        position: relative;
+        top: -.6em;
+        font-weight: 200;
+        font-style: normal;
+        font-size: .9em;
+      }
+    }
+  }
+}

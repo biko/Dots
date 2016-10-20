@@ -1,0 +1,13 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background:$background-color;
+}
+
+.page-wrapper{
+    position: relative;
+    padding: 0 1em;
+    max-width: 52em;
+    min-width: 270px;
+    margin: 0 auto;
+}

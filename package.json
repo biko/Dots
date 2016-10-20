@@ -1,0 +1,27 @@
+{
+  "name": "biko-site",
+  "version": "1.0.0",
+  "description": "Biko's web site html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebastian@bikoapp.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-minify": "0.0.14",
+    "gulp-s3": "^0.3.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
